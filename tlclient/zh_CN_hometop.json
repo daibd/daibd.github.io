@@ -1,0 +1,46 @@
+{
+  "swipper": [
+    {
+      "title": "极速借款",
+      "url": "",
+      "image": "https://daibd.github.io/tlclient/sydeny.png"
+    },
+    {
+      "title": "隐私保障",
+      "url": "",
+      "image": "https://daibd.github.io/tlclient/life.png"
+    },
+    {
+      "title": "房屋贷款、汽车贷款、商业贷款...",
+      "url": "",
+      "image": "https://daibd.github.io/tlclient/house.png"
+    },
+    {
+      "title": "投资、理财...",
+      "url": "",
+      "image": "https://daibd.github.io/tlclient/business.png"
+    },
+    {
+      "title": "一站式服务!",
+      "url": "",
+      "image": "https://daibd.github.io/tlclient/boat.png"
+    }
+  ],  
+  "advertes": [
+    {
+      "title": "精品推荐1",
+      "url": "",
+      "image": "https://daibd.github.io/tlclient/bg10.png"
+    },
+    {
+      "title": "精品推荐2",
+      "url": "",
+      "image": "https://daibd.github.io/tlclient/bg11.png"
+    },
+    {
+      "title": "精品推荐3",
+      "url": "",
+      "image": "https://daibd.github.io/tlclient/bg12.png"
+    }    
+  ]
+}
