@@ -29,18 +29,18 @@
   "advertes": [
     {
       "title": "精品推荐1",
-      "url": ""
-      "image": "https://daibd.github.io/tlclient/bg10.png",
+      "url": "",
+      "image": "https://daibd.github.io/tlclient/bg10.png"
     },
     {
       "title": "精品推荐2",
-      "url": ""
-      "image": "https://daibd.github.io/tlclient/bg11.png",
+      "url": "",
+      "image": "https://daibd.github.io/tlclient/bg11.png"
     },
     {
       "title": "精品推荐3",
-      "url": ""
-      "image": "https://daibd.github.io/tlclient/bg12.png",
+      "url": "",
+      "image": "https://daibd.github.io/tlclient/bg12.png"
     }    
   ]
 }
