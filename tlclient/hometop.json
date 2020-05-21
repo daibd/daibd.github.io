@@ -1,0 +1,65 @@
+{
+  "swipper": [
+    {
+      "title": "黄强胤调研城区重点道路建设工作",
+      "url": "http://www.xishui.gov.cn/art/2020/4/10/art_8822_913863.html",
+      "image": "http://www.xishui.gov.cn/picture/0/4e18a03de91d40f895365c2263243b42.png"
+    },
+    {
+      "title": "黄强胤督办挂牌督战村脱贫攻坚工作",
+      "url": "http://www.xishui.gov.cn/art/2020/4/6/art_8822_913094.html",
+      "image": "http://www.xishui.gov.cn/picture/0/2f8a2b6988f54acda60b5b02bd0a32cf.png"
+    },
+    {
+      "title": "黄强胤检查'五一'期间景区疫情防控和旅游安全工作",
+      "url": "",
+      "image": "http://www.xishui.gov.cn/picture/0/s_c3fa00502ac0452d956cac043d366817.png"
+    },
+    {
+      "title": "县长付宇今天直播带货，助力浠水扶贫消费",
+      "url": "",
+      "image": "http://www.xishui.gov.cn/picture/0/s_d0dac0b050e64672a08f6f719a6cb336.png"
+    },
+    {
+      "title": "2020年'4·15'全民国家安全教育日",
+      "url": "",
+      "image": "http://www.xishui.gov.cn/picture/0/s_c4247bc491114db4a4b8ca33e8448a45.jpg"
+    }
+  ],
+  "navigator": [
+    {
+      "name": "支部",
+      "title": "组织机构",
+      "router": "/tab1OrgPage"
+    },
+    {
+      "name": "阵地",
+      "title": "在岗党员",
+      "router": "/tab1PlacePage"
+    },
+    {
+      "name": "岗位",
+      "title": "身份审核",
+      "router": "/tab1AuditPage"
+    },
+    {
+      "name": "积分",
+      "title": "积分查询",
+      "router": "/tab1ScorePage"
+    },
+    {
+      "name": "打卡",
+      "title": "签到记录",
+      "router": "/tab1TaskPage"
+    }
+  ],
+  "advertes": [
+    {
+      "image": "https://gitee.com/rogerdai/homeservant/raw/master/flowparty.jpeg",
+      "title": "永远跟党走",
+      "score": 1,
+      "time": 10,
+      "url": "https://mp.weixin.qq.com/s/zEDis0JI5m90xlt4rWB7EA"
+    }
+  ]
+}
