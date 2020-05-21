@@ -1,10 +1,10 @@
 {
     "Code": 0,
-    "Msg": "程序更新",
-    "UpdateStatus": 1,
-    "VersionCode": 14,
-    "VersionName": "1.0.14",
-    "ModifyContent": "1、正式版发布。\r\n2.完善功能。\r\n",
+    "Msg": "",
+    "UpdateStatus": 0,
+    "VersionCode": 1,
+    "VersionName": "1.0.1",
+    "ModifyContent": "1、内测版。\r\n2.完善功能。\r\n",
     "DownloadUrl": "http://apk.partymember.cn/homeservant_14.apk",
     "ApkSize": 19563,
     "ApkMd5": "6fc3b7a781ec46e700a1a5a968e599ac"
