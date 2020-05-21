@@ -1,7 +1,7 @@
 {
   "swipper": [
     {
-      "title": "快速借款",
+      "title": "极速借款",
       "url": "",
       "image": "https://daibd.github.io/tlclient/bg1.png"
     },
@@ -11,12 +11,12 @@
       "image": "https://daibd.github.io/tlclient/bg2.png"
     },
     {
-      "title": "资金安全",
+      "title": "抵押贷、信用贷",
       "url": "",
       "image": "https://daibd.github.io/tlclient/bg3.png"
     },
     {
-      "title": "房贷、车贷、商业贷款",
+      "title": "房贷、车贷、商贷",
       "url": "",
       "image": "https://daibd.github.io/tlclient/bg4.png"
     },
