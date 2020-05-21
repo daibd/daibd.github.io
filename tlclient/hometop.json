@@ -1,65 +1,46 @@
 {
   "swipper": [
     {
-      "title": "",
+      "title": "快速借款",
       "url": "",
       "image": "https://daibd.github.io/tlclient/bg1.png"
     },
     {
-      "title": "",
+      "title": "隐私保障",
       "url": "",
       "image": "https://daibd.github.io/tlclient/bg2.png"
     },
     {
-      "title": "",
+      "title": "资金安全",
       "url": "",
       "image": "https://daibd.github.io/tlclient/bg3.png"
     },
     {
-      "title": "",
+      "title": "房贷、车贷、商业贷款",
       "url": "",
       "image": "https://daibd.github.io/tlclient/bg4.png"
     },
     {
-      "title": "",
+      "title": "一站式服务",
       "url": "",
       "image": "https://daibd.github.io/tlclient/bg5.png"
     }
-  ],
-  "navigator": [
-    {
-      "name": "支部",
-      "title": "组织机构",
-      "router": "/tab1OrgPage"
-    },
-    {
-      "name": "阵地",
-      "title": "在岗党员",
-      "router": "/tab1PlacePage"
-    },
-    {
-      "name": "岗位",
-      "title": "身份审核",
-      "router": "/tab1AuditPage"
-    },
-    {
-      "name": "积分",
-      "title": "积分查询",
-      "router": "/tab1ScorePage"
-    },
-    {
-      "name": "打卡",
-      "title": "签到记录",
-      "router": "/tab1TaskPage"
-    }
-  ],
+  ],  
   "advertes": [
     {
-      "image": "https://daibd.github.io/tlclient/bg10.png",
-      "title": "永远跟党走",
-      "score": 1,
-      "time": 10,
+      "title": "精品推荐1",
       "url": ""
-    }
+      "image": "https://daibd.github.io/tlclient/bg10.png",
+    },
+    {
+      "title": "精品推荐2",
+      "url": ""
+      "image": "https://daibd.github.io/tlclient/bg11.png",
+    },
+    {
+      "title": "精品推荐3",
+      "url": ""
+      "image": "https://daibd.github.io/tlclient/bg12.png",
+    }    
   ]
 }
