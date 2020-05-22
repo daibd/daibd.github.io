@@ -26,21 +26,11 @@
       "image": "https://daibd.github.io/tlclient/homelist/images/boat.png"
     }
   ],
-  "advertes": [
+  "company": [
     {
-      "title": "Item 1",
-      "url": "",
-      "image": "https://daibd.github.io/tlclient/bg10.png"
-    },
-    {
-      "title": "Item 2",
-      "url": "",
-      "image": "https://daibd.github.io/tlclient/bg11.png"
-    },
-    {
-      "title": "Item 3",
-      "url": "",
-      "image": "https://daibd.github.io/tlclient/bg12.png"
+      "title": "About us",
+      "image": "https://daibd.github.io/tlclient/homelist/images/about_us.jpg",
+      "url": "https://daibd.github.io/tlclient/homelist/images/en_US_about_us.html"
     }
   ]
 }
