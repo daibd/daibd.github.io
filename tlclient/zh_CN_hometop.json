@@ -31,6 +31,21 @@
       "title": "关于我们",
       "image": "https://daibd.github.io/tlclient/homelist/images/about_us.jpg",
       "url": "https://daibd.github.io/tlclient/homelist/zh_CN_about_us.html"
+    },
+    {
+      "title": "合作伙伴",
+      "image": "https://daibd.github.io/tlclient/homelist/images/partner.jpg",
+      "url": "https://daibd.github.io/tlclient/homelist/zh_CN_partner.html"
+    },
+    {
+      "title": "招聘信息",
+      "image": "https://daibd.github.io/tlclient/homelist/images/link.jpg",
+      "url": "https://daibd.github.io/tlclient/homelist/zh_CN_jobs.html"
+    },
+    {
+      "title": "联系我们",
+      "image": "https://daibd.github.io/tlclient/homelist/images/3000035.jpg",
+      "url": "https://daibd.github.io/tlclient/homelist/zh_CN_contact_us.html"
     }
   ]
 }

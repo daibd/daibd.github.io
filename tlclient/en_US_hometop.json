@@ -30,7 +30,22 @@
     {
       "title": "About us",
       "image": "https://daibd.github.io/tlclient/homelist/images/about_us.jpg",
-      "url": "https://daibd.github.io/tlclient/homelist/en_US_about_us.html"
+      "url": "https://daibd.github.io/tlclient/homelist/zh_CN_about_us.html"
+    },
+    {
+      "title": "Our Cooperative Partners",
+      "image": "https://daibd.github.io/tlclient/homelist/images/partner.jpg",
+      "url": "https://daibd.github.io/tlclient/homelist/zh_CN_partner.html"
+    },
+    {
+      "title": "Jobs",
+      "image": "https://daibd.github.io/tlclient/homelist/images/link.jpg",
+      "url": "https://daibd.github.io/tlclient/homelist/zh_CN_jobs.html"
+    },
+    {
+      "title": "Contact us",
+      "image": "https://daibd.github.io/tlclient/homelist/images/3000035.jpg",
+      "url": "https://daibd.github.io/tlclient/homelist/zh_CN_contact_us.html"
     }
   ]
 }
