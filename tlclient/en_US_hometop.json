@@ -25,7 +25,7 @@
       "url": "",
       "image": "https://daibd.github.io/tlclient/homelist/images/boat.png"
     }
-  ],  
+  ],
   "advertes": [
     {
       "title": "Item 1",
@@ -41,6 +41,6 @@
       "title": "Item 3",
       "url": "",
       "image": "https://daibd.github.io/tlclient/bg12.png"
-    }    
+    }
   ]
 }
