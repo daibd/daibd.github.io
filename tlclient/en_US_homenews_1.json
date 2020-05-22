@@ -2,10 +2,10 @@
     "totpage": 1,
     "data": [
         {
-            "url": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/zh_CN_home_loan.html",
-            "title": "房屋贷款",
+            "url": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/en_US_home_loan.html",
+            "title": "Home Loan",
             "stick": "",
-            "image1": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/images/home.png",
+            "image1": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/images/house.png",
             "image2": "",
             "image3": "",
             "source": "Truslend Group",
@@ -13,8 +13,8 @@
             "time": ""
         },
         {
-            "url": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/zh_CN_car_loan.html",
-            "title": "汽车贷款",
+            "url": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/en_US_car_loan.html",
+            "title": "Car Loan",
             "stick": "",
             "image1": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/images/car.png",
             "image2": "",
@@ -24,8 +24,8 @@
             "time": ""
         },
         {
-            "url": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/zh_CN_commercial_loan.html",
-            "title": "商铺贷款",
+            "url": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/en_US_commercial_loan.html",
+            "title": "Commercial Loan",
             "stick": "",
             "image1": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/images/business.png",
             "image2": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/images/sydeny.png",
