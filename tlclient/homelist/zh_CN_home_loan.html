@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name=“renderer” content=“webkit”>
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>简介</title>
+    <link rel="stylesheet" href="./css/weui.css" />
+    <link rel="stylesheet" href="./css/weuix.css" />
+</head>
+
+<body ontouchstart>
+    <div class="weui-content">
+        <div class="weui-c-inner">
+            <div class="weui-c-content">
+                <h2 class="weui-c-title">房屋贷款</h2>
+                <div class="weui-c-meta">
+                    <span class="weui-c-nickname"><a href="javascript:;">Truslend Group</a></span>
+                    <em class="weui-c-nickname">2020-05-20</em>
+                </div>
+                <div class="weui-c-article">
+                    <p><img src="./images/house.png"></p>
+                    <p>
+                        无论您是首次置业者还是房产投资者，我们都可以为您提供所需要的服务:
+                    </p>
+                    <p>
+                        · 帮助首次置业者了解首次置业优惠和贷款流程
+                    </p>
+                    <p>
+                        · 全程协助买房贷款申请直至成交
+                    </p>
+                    <p>
+                        · 现有贷款重组从而得到最优质的贷款方案和最低利率
+                    </p>
+                    <p>
+                        · 免费房产估价
+                    </p>
+                    <p>
+                        · 免费提供个人信用记录
+                    </p>
+                    <p>
+                        · 公司名下和信托基金下物业贷款咨询
+                    </p>
+
+                    <p>
+                        我们与 30 余家银行及金融机构紧密合作，提供千种贷款产品选择，房贷最高 97% LVR，医生、会计师、律师等专业人士 90% LVR无需支付 LMI
+                        保险费，投资房组合贷款，实现税务最大优惠，并免除任何银行申请费用。
+                    </p>
+                </div>
+            </div>
+            <div class="weui-c-tools">
+                <!-- <a href="javascript:;">阅读原文</a> -->
+                <!-- <div class="weui-c-readnum">阅读<span id="readnum">10000+</span></div> -->
+                <!-- <div class="weui-c-like"> -->
+                <!-- <i class="icon"></i> -->
+                <!-- <span id="likenum">1000</span> -->
+                <!-- </div> -->
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./js/zepto.min.js"></script>
+    <script>
+        $(function () {
+            $(".weui-c-like .icon").click(function () {
+                if ($(this).hasClass('on')) {
+                    $(this).removeClass('on')
+                } else {
+                    $(this).addClass('on')
+                }
+            })
+
+        });
+
+    </script>
+</body>
+
+</html>

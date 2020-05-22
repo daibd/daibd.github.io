@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name=“renderer” content=“webkit”>
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>Introduce</title>
+    <link rel="stylesheet" href="./css/weui.css" />
+    <link rel="stylesheet" href="./css/weuix.css" />
+</head>
+
+<body ontouchstart>
+    <div class="weui-content">
+        <div class="weui-c-inner">
+            <div class="weui-c-content">
+                <h2 class="weui-c-title">Commercial Loan</h2>
+                <div class="weui-c-meta">
+                    <span class="weui-c-nickname"><a href="javascript:;">Truslend Group</a></span>
+                    <em class="weui-c-nickname">2020-05-20</em>
+                </div>
+                <div class="weui-c-article">
+                    <p><img src="./images/business.png"></p>
+                    <p>
+                        Shop: Regardless of second-hand shops or new shops,the applicant's repayment ability, rental
+                        return rate and duration of the leasewill be assessed. The loan amount of shops is generally
+                        60%-70%, and some bankscan achieve 80%. The loan interest rate is slightly higher than the home
+                        loan.It mainly assesses the applicant's repayment ability, rental return rate andduration of the
+                        lease.
+                    </p>
+                    <p>
+                        Franchise Business: Bank-specific approved Franchise Businessgenerally have a loan amount of 50%
+                        to 60% of the business value. If there is aproperty collateral, the amount can reach 80%, or as
+                        part of the mortgage,which will lower your loan interest rate.
+                    </p>
+                    <p>
+                        Business loans: divided into real estate mortgages orunsecured loans. The unsecured loan amount
+                        is generally 50% of the businessvalue, and the mortgage loan amount can be higher.
+                    </p>
+                    <p>
+                        Business loans require applicant information:
+                    </p>
+                    <p>
+                        1. Past business experience and industry-related workexperience;
+                    </p>
+                    <p>
+                        2. Two-year financial statements for the purchase ofthe business;
+                    </p>
+                    <p>
+                        3. The repayment ability of the purchaser;
+                    </p>
+                    <p>
+                        4. Whether the purchaser will work in this business,industry prospects, etc.;
+                    </p>
+                </div>
+            </div>
+            <div class="weui-c-tools">
+                <!-- <a href="javascript:;">阅读原文</a> -->
+                <!-- <div class="weui-c-readnum">阅读<span id="readnum">10000+</span></div> -->
+                <!-- <div class="weui-c-like"> -->
+                <!-- <i class="icon"></i> -->
+                <!-- <span id="likenum">1000</span> -->
+                <!-- </div> -->
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./js/zepto.min.js"></script>
+    <script>
+        $(function () {
+            $(".weui-c-like .icon").click(function () {
+                if ($(this).hasClass('on')) {
+                    $(this).removeClass('on')
+                } else {
+                    $(this).addClass('on')
+                }
+            })
+
+        });
+
+    </script>
+</body>
+
+</html>

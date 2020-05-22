@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name=“renderer” content=“webkit”>
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>Introduce</title>
+    <link rel="stylesheet" href="./css/weui.css" />
+    <link rel="stylesheet" href="./css/weuix.css" />
+</head>
+
+<body ontouchstart>
+    <div class="weui-content">
+        <div class="weui-c-inner">
+            <div class="weui-c-content">
+                <h2 class="weui-c-title">Home Loan</h2>
+                <div class="weui-c-meta">
+                    <span class="weui-c-nickname"><a href="javascript:;">Truslend Group</a></span>
+                    <em class="weui-c-nickname">2020-05-20</em>
+                </div>
+                <div class="weui-c-article">
+                    <p><img src="./images/house.png"></p>
+                    <p>
+                        Whether you are a first home buyer or a property investor, we can provide you with the services
+                        you need:
+                    </p>
+                    <p>
+                        · Help first home buyers understand first home purchases and loan processes
+                    </p>
+                    <p>
+                        · Full assistance in home loan application until the settlement
+                    </p>
+                    <p>
+                        · Restructuring of existing loans to get the best loan plan and minimum interest rate
+                    </p>
+                    <p>
+                        · Free property valuation
+                    </p>
+                    <p>
+                        · Free personal credit history
+                    </p>
+                    <p>
+                        · Property loan consultation under the company name and trust fund
+                    </p>
+
+                    <p>
+                        We work closely with more than 30 banks and financial institutions to provide thousands of loan
+                        product options, up to 97% LVR. Doctors, accountants, lawyers and other professionals does not
+                        need to pay LMI insurance premiums up to 90%LVR. We help you restructure your properties
+                        investment loans portfolio, to maximum taxation benefit.
+                    </p>
+                </div>
+            </div>
+            <div class="weui-c-tools">
+                <!-- <a href="javascript:;">阅读原文</a> -->
+                <!-- <div class="weui-c-readnum">阅读<span id="readnum">10000+</span></div> -->
+                <!-- <div class="weui-c-like"> -->
+                <!-- <i class="icon"></i> -->
+                <!-- <span id="likenum">1000</span> -->
+                <!-- </div> -->
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./js/zepto.min.js"></script>
+    <script>
+        $(function () {
+            $(".weui-c-like .icon").click(function () {
+                if ($(this).hasClass('on')) {
+                    $(this).removeClass('on')
+                } else {
+                    $(this).addClass('on')
+                }
+            })
+
+        });
+
+    </script>
+</body>
+
+</html>
