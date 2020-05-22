@@ -2,10 +2,10 @@
     "totpage": 1,
     "data": [
         {
-            "url": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/en_US_home_loan.html",
+            "url": "https://daibd.github.io/tlclient/homelist/en_US_home_loan.html",
             "title": "Home Loan",
             "stick": "",
-            "image1": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/images/house.png",
+            "image1": "https://daibd.github.io/tlclient/homelist/images/house.png",
             "image2": "",
             "image3": "",
             "source": "Truslend Group",
@@ -13,10 +13,10 @@
             "time": ""
         },
         {
-            "url": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/en_US_car_loan.html",
+            "url": "https://daibd.github.io/tlclient/homelist/en_US_car_loan.html",
             "title": "Car Loan",
             "stick": "",
-            "image1": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/images/car.png",
+            "image1": "https://daibd.github.io/tlclient/homelist/images/car.png",
             "image2": "",
             "image3": "",
             "source": "Truslend Group",
@@ -24,12 +24,12 @@
             "time": ""
         },
         {
-            "url": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/en_US_commercial_loan.html",
+            "url": "https://daibd.github.io/tlclient/homelist/en_US_commercial_loan.html",
             "title": "Commercial Loan",
             "stick": "",
-            "image1": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/images/business.png",
-            "image2": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/images/sydeny.png",
-            "image3": "https://raw.githubusercontent.com/daibd/daibd.github.io/master/tlclient/homelist/images/life.png",
+            "image1": "https://daibd.github.io/tlclient/homelist/images/business.png",
+            "image2": "https://daibd.github.io/tlclient/homelist/images/sydeny.png",
+            "image3": "https://daibd.github.io/tlclient/homelist/images/life.png",
             "source": "Truslend Group",
             "comment": "",
             "time": ""
