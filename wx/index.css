@@ -1,0 +1,160 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+* {
+  touch-action: pan-y;
+}
+
+.weui-tab__bd-item {
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.tip-head{
+  color:#00ff00;
+  background: #000000; 
+  padding: 5px;
+  margin: 0;
+  text-indent: 0em;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weui-agree {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weui-gallery__del {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.weui-label {
+  color: #999;
+}
+
+.weui-uploader__title {
+  color: #999;
+}
+
+.weui-navbar__item.weui-bar__item--on {
+  color: #FFFFFF;
+  font-weight: bold;
+  background-color: #09BB07;
+}
+
+.circle_bg {
+  color: #09BB07;
+}
+
+.action_highcolor {
+  color: #09BB07;
+}
+
+#btn_masses_cancel {
+  color: #000000;
+  font-weight: bold;
+}
+
+#btn_masses_discuss {
+  color: #fcc919;
+  font-weight: bold;
+}
+
+#score-star-number {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#masses-discuss-score {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weui-label {
+  width: auto;
+  padding-right: 10px;
+}
+
+.weui-input {
+  border: 1px solid #e5e5e5;
+  color: #1aad19;
+  padding: 5px;
+}
+
+.weui-textarea {
+  border: 1px solid #e5e5e5;
+  color: #1aad19;
+  padding: 5px;
+}
+
+.weui-cells {
+  margin-top: 0;
+}
+
+.div-line {
+  border: 1px solid #e5e5e5;
+  color: #1aad19;
+}
+
+.weui-cells:before {
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.weui-cells:after {
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.weui-cell:before {
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.weui-cell:after {
+  border-top: 0;
+  border-bottom: 0;
+}
+
+#btn_masses_discuss_post {
+  cursor: pointer;
+}
+
+#btn_post_content {
+  cursor: pointer;
+}
+
+#btn_masses_userinfo {
+  cursor: pointer;
+}

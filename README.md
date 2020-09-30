@@ -1,1 +1,0 @@
-https://daibd.github.io/

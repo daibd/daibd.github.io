@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name=“renderer” content=“webkit”>
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <meta name="description" content="小区微服务">
+    <title>小区微服务</title>
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.3/style/weui.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/jquery-weui/1.2.1/css/jquery-weui.min.css">
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            -webkit-tap-highlight-color: transparent;
+            margin: 0px;
+            padding: 0px;
+            font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+        }
+
+        .app-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .app-text-title {
+            text-align: center;
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body ontouchstart>
+
+    <div class="weui-flex app-container">
+        <div class="weui-flex__item">
+            <div class="weui-loadmore">
+                <i class="weui-loading"></i>
+                <span class="weui-loadmore__tips app-text-title">正在努力加载,请稍等...</span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery-weui/1.2.1/js/jquery-weui.min.js"></script>
+
+    <script>
+        function is_weixn() {
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == "micromessenger") {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        function getParameter(param) {
+            var query = window.location.search;//获取URL地址中？后的所有字符
+            var iLen = param.length;//获取你的参数名称长度
+            var iStart = query.indexOf(param);//获取你该参数名称的其实索引
+            if (iStart == -1)//-1为没有该参数
+                return "";
+            iStart += iLen + 1;
+            var iEnd = query.indexOf("&", iStart);//获取第二个参数的其实索引
+            if (iEnd == -1)//只有一个参数
+                return query.substring(iStart);//获取单个参数的参数值
+            return query.substring(iStart, iEnd);//获取第二个参数的值
+        }
+
+        $(function () {
+            if (!is_weixn()) {
+                console.log(navigator.userAgent);
+                alert('只能在微信中使用!');
+            } else {
+                var redirect_uri = encodeURIComponent('https://www.partymember.cn/hongan/wxauth/');
+                //console.log(redirect_uri);
+                var state = getParameter('code');
+                var auth_url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd9a62520864c720d&redirect_uri=' + redirect_uri + '&response_type=code&scope=snsapi_base&state=' + state + '#wechat_redirect';
+                console.log(auth_url);
+
+                // 跳转
+                document.write("<script>window.location.href='" + auth_url + "'; < /script>");
+            }
+        });
+    </script>
+</body>
+
+</html>
